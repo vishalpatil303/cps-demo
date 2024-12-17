@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proforma-F</title>
+</head>
+<body>
+    <form th:action="@{/uploadproforma}" method="post" enctype="multipart/form-data" >
+    <input type="file" name="proforma" id="proforma"  required />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
